@@ -1,0 +1,96 @@
+.text-to-audio-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.speech-btn{
+   background-color:midnightblue;
+   color: whitesmoke;
+   padding: 5px 10px;
+   border: none;
+}
+
+.clear-btn{
+   background-color:red;
+   color: whitesmoke;
+   padding: 5px 10px;
+   border: none;
+}
+
+.text-area{
+  background-color:black;
+  font-size: 25px;
+  color: aliceblue;
+}
+
+.btn-group{
+  display: flex;
+  gap: 10px;
+}
+
+
+.audio-to-text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.bi-mic{
+  font-size: 30px;
+}
+
+
+.sub-childs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  gap: 10px;
+}
+
+.btns{
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  border: none;
+}
+
+.mic-btn{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 6px;
+    margin: 10px;
+    background-color: green;
+    color: whitesmoke;
+    border: none;
+}
+
+.mute-btn{
+ 
+    
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 6px;
+    margin: 10px;
+    background-color:aliceblue;
+    color:black;
+    border: none;
+  
+}
+
+.text{
+  background-color: midnightblue;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bolder;
+  
+}
